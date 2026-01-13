@@ -26,7 +26,7 @@ RUN mkdir -p /opt/unidesign \
 WORKDIR /opt/unidesign
 
 # Clonar el repositorio UniDesign
-RUN git clone "https://github.com/tommyhuangthu/UniDesign.git" source
+RUN git clone "https://github.com/XRed8X/UniDesign.git" source
 
 # Compilar UniDesign
 WORKDIR /opt/unidesign/source
